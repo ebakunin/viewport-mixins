@@ -1,7 +1,7 @@
 # viewport-mixins
 SCSS mixins to define the widths of `@media` queries.
 
-## Usage in a SCSS document
+## Example usage in a SCSS document
 
 ```
 @include mobile-viewport() {
@@ -16,7 +16,7 @@ SCSS mixins to define the widths of `@media` queries.
   }
 }
 ```
-(See the associated `example.scss` document.)
+(See the associated `example.scss` document)
 
 
 ## Why not use CSS variables?
