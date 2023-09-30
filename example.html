@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <title>Viewport Mixins Examples</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+<h1>Viewport Media Query Examples</h1>
+
+<h2 class="desktop">
+    This is a <span class="desktop-color">deskto️p</span> viewport <span class="dimensions">(1301px or greater)</span>
+    <span class="device-icon">🖥</span>
+</h2>
+<h2 class="laptop">
+    This is a <span class="laptop-color">laptop</span> viewport <span class="dimensions">(801px to 1300px)</span>
+    <span class="device-icon">💻</span>
+</h2>
+<h2 class="tablet">
+    This is a <span class="tablet-color">tablet</span> viewport <span class="dimensions">(481px to 800px)</span>
+    <span class="tablet-icon"></span>
+</h2>
+<h2 class="mobile">
+    This is a <span class="mobile-color">mobile</span> viewport <span class="dimensions">(480px or less)</span>
+    <span class="device-icon">📱</span>
+</h2>
+
+<div id="container">
+    <h3 class="laptop-and-smaller">
+        This section is for 💻, <span class="tablet-icon"></span>, and 📱 viewports
+    </h3>
+    <h3 class="tablet-and-smaller">
+        This section is for <span class="tablet-icon"></span> and 📱 viewports
+    </h3>
+</div>
+
+</body>
+</html>
