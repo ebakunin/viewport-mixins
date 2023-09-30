@@ -4,6 +4,10 @@ SCSS mixins to define the widths of `@media` queries.
 ## Example usage in a SCSS document
 
 ```
+.mobile, .tablet-only {
+  display: none;
+}
+
 @include mobile-viewport() {
   .mobile {
     display: block;
@@ -11,7 +15,7 @@ SCSS mixins to define the widths of `@media` queries.
 }
 
 @include tablet-only-viewport() {
-  .tablet {
+  .tablet-only {
     display: block;
   }
 }
